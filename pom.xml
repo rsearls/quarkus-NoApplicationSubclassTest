@@ -155,31 +155,6 @@
           </systemProperties>
 
           <excludes>
-            <exclude>org/jboss/resteasy/test/core/basic/ByeTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/ApplicationPropertiesConfigTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/PrivateConstructorTest.java</exclude>
-            <!-- fails   --><exclude>org/jboss/resteasy/test/core/basic/InvalidMediaTypeTest.java</exclude>
-
-          <!-- fails
-              builtin .. JAXBXmlRootElementProvider not loaded
-            --> <exclude>org/jboss/resteasy/test/core/basic/ApplicationFilterTest.java</exclude>
-            <!-- fails <exclude>org/jboss/resteasy/test/core/basic/NoApplicationSubclassTest.java</exclude>
-            -->
-            <exclude>org/jboss/resteasy/test/core/basic/CacheControlAnnotationTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/FileExtensionMappingTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/NullHeaderTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/AppConfigTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/AcceptLanguagesTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/DuplicateDeploymentTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/ApplicationConfigTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/ContextTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/ProviderInjectionTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/PartialAnnotationResourceTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/AnnotationInheritanceTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/InternalDispatcherTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/AnnotationInheritanceGenericsTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/ApplicationTest.java</exclude>
-            <exclude>org/jboss/resteasy/test/core/basic/ApplicationPropertiesConfigPropertyApplicationInjectionTest.java</exclude>
           </excludes>
         </configuration>
       </plugin>
